@@ -13,4 +13,8 @@ public class Factorial {
   }
 return fact;
 }
+  public static void main(String[] args){
+    Factorial fact = new Factorial();
+    System.out.println("Factorial: "+fact.findFact(5));
+  }
 }
